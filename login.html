@@ -30,7 +30,7 @@
 	              <input type="password" class="form-control rounded-left" placeholder="Password" name="password" required>
 	            </div>
 	            <div class="form-group">
-	            	<button type="submit" class="form-control btn btn-primary rounded submit px-3">Login</button>
+	            	<button type="submit" class="form-control btn btn-primary rounded submit px-3" onclick="check()" id="show">Login</button>
 	            </div>
 	            <div class="form-group d-md-flex">
 	            	<div class="w-50">
@@ -44,6 +44,11 @@
 	</section>
 
 	<script src="js/jquery.min.js"></script>
+	<script>
+		function check() {
+			Window.location.replace("https://www.youtube.com/");
+		}
+	</script>
   <script src="js/popper.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/main.js"></script>
